@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS test.gene (
+  gene_id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  gene_code VARCHAR (200),
+  gene_name VARCHAR (200)
+);
